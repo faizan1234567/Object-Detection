@@ -1,8 +1,8 @@
 
-In this repository, crops and weeds are recognized and localized using [YOLOv5](https://github.com/ultralytics/yolov5) and [Faster-RCNN](https://arxiv.org/abs/1506.01497). The Faster-RCNN model was slow to run on my computer so I ran it for less epochs than YOLOv5. YOLOv5 is a single stage detector, while Faster-RCNN is heavy and requiures more computational budget to train. In my work, I collected a labeled dataset from [Kaggle](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes).
-The dataset has been review to see any missing information or for removing undesired images.
+In this repository, crops and weeds are recognized and localized using [YOLOv5](https://github.com/ultralytics/yolov5) and [Faster-RCNN](https://arxiv.org/abs/1506.01497). The Faster-RCNN model was slow to run on my computer so I ran it for less epochs than YOLOv5. YOLOv5 is a single stage detector, while Faster-RCNN is heavy and requires more computational budget to train. In this project, I collected a labeled dataset from [Kaggle](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes).
+The dataset has been reviewed to see for any missing information or for removing undesired images.
 
-The dataset has been uploaded to [Roboflow](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes) annoatation tool to convert it to YOLOV5 format for YOLO and TF record foramt for Faster RCNN, and to preprocess and augment the dataset. The following images demonstrates labeled iamges.
+The dataset has been uploaded to [Roboflow](https://www.kaggle.com/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes) annoatation tool to convert it to YOLOV5 format for YOLO and TF record format for Faster RCNN, and to preprocess and augment the dataset. The following images demonstrates labeled iamges.
 
 ![gtruth](https://user-images.githubusercontent.com/61932757/154662096-a08c3ca8-474c-4516-bf59-8602565bd022.png)
 
